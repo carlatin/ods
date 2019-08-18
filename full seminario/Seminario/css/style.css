@@ -1,0 +1,497 @@
+.establecimiento{
+  font-family: 'Arvo', serif;
+  font-size: 80px;
+}
+.ods{
+  width: 100%;
+  height: 350px;
+  border: 8px solid #000000;
+}
+.filaestablecimiento{
+  background: linear-gradient(to bottom, rgba(13,79,119,1) 0%, rgba(13,79,119,1) 11%, rgba(49,122,191,1) 35%, rgba(54,108,166,1) 50%, rgba(13,47,84,1) 90%, rgba(13,47,84,1) 100%);
+
+  color: #FFF;
+}
+.seminario{
+  background: #B7C175 ;
+  color: #fff;
+}
+.fod{
+  background: #000000;
+}
+.esp{
+ padding: 5%;
+ background: url("../img/fon.png")no-repeat;
+ background-size: cover;
+}
+.menu{
+  background: #0D0E0D ;
+  color: #FFF;
+  font-size: 20px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  height: 60px;
+}
+.imgcarrusel{
+  width: 100%;
+  height: 550px;
+  background: #FFF;
+}
+body{
+  background: #000000;
+}
+.titulo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.plan{
+  font-size: 18px;
+}
+.lcm{
+  width: 80%;
+  height: 300px;
+  border-radius: 30px;
+}
+.filatexto{
+  background:#fff;
+  color: #000;
+}
+.semi{
+  font-size: 25px;
+}
+.men:hover{
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  height: 60px;
+  background: linear-gradient(to bottom, rgba(13,79,119,1) 0%, rgba(13,79,119,1) 11%, rgba(49,122,191,1) 35%, rgba(54,108,166,1) 50%, rgba(13,47,84,1) 90%, rgba(13,47,84,1) 100%);
+
+  color: #fff;
+  font-size: 20px;
+}
+.a{
+  margin-left: -11px;
+}
+a{
+  text-decoration: none;
+  color: #FFF;
+}
+a:hover{
+  text-decoration: none;
+  color: #FFF;
+}
+.odsimg{
+  width:100%;
+  height: 350px;
+}
+.colinfo{
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFF;
+}
+.textods{
+  font-size: 20px;
+}
+.filaods{
+  background: #E2214D ;
+  height: 350px;
+}
+.od1{
+  background: #E2214D ;
+  color:#FFF;
+}
+.o1:hover{
+  background: #E2214D ;
+  color:#FFF;
+}
+.filaods2{
+  background: #DAA120 ;
+  height: 350px;
+}
+.od2{
+  background:#DAA120 ;
+  color:#FFF;
+}
+.o2:hover{
+  background:#DAA120 ;
+  color:#FFF;
+}
+.filaods3{
+  background:#649F4B  ;
+  height: 350px;
+}
+.o3:hover{
+  background: #649F4B ;
+  color:#FFF;
+}
+.od3{
+  background: #649F4B ;
+  color:#FFF;
+}
+.filaods4{
+  background:#BD1628  ;
+  height: 350px;
+}
+.o4:hover{
+  background: #BD1628 ;
+  color:#FFF;
+}
+.od4{
+  background: #BD1628 ;
+  color:#FFF;
+}
+.filaods5{
+  background:#EA5112  ;
+  height: 350px;
+}
+.o5:hover{
+  background: #EA5112 ;
+  color:#FFF;
+}
+.od5{
+  background: #EA5112 ;
+  color:#FFF;
+}
+.filaods6{
+  background:#16B3BD  ;
+  height: 350px;
+}
+.o6:hover{
+  background: #16B3BD ;
+  color:#FFF;
+}
+.od6{
+  background: #16B3BD ;
+  color:#FFF;
+}
+.filaods7{
+  background:#EAD60C  ;
+  height: 350px;
+}
+.o7:hover{
+  background: #EAD60C ;
+  color:#FFF;
+}
+.od7{
+  background: #EAD60C ;
+  color:#FFF;
+}
+.filaods8{
+  background:#99204C   ;
+  height: 350px;
+}
+.o8:hover{
+  background: #99204C ;
+  color:#FFF;
+}
+.od8{
+  background: #99204C ;
+  color:#FFF;
+}
+.filaods9{
+  background:#F2760F  ;
+  height: 350px;
+}
+.o9:hover{
+  background:#F2760F;
+  color:#FFF;
+}
+.od9{
+  background:#F2760F;
+  color:#FFF;
+}
+.filaods10{
+  background:#D31B6F  ;
+  height: 350px;
+}
+.o10:hover{
+  background:#D31B6F ;
+  color:#FFF;
+}
+.od10{
+  background:#D31B6F ;
+  color:#FFF;
+}
+.enlace{
+  width: 100%;
+  background: #000000;
+  padding: 10px;
+  font-size: 20px;
+}
+object{
+  width: 100%;
+  height: 250px;
+}
+.filacarrera{
+  background:url("../img/fon.png")no-repeat;
+  background-size: cover;
+  height: 110px;
+}
+.primeros{
+  background: #525051;
+  color:#FFF;
+  font-size: 20px;
+  text-align: center;
+  height: 60px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.carreras{
+  color:#FFF;
+  text-align: center;
+  font-size: 30px;
+}
+p{
+  color: #FFF;
+}
+.carrera{
+    background: #525051;
+}
+p:hover{
+  color: #35BAD5;
+}
+button{
+  height: auto;
+  width: 100%;
+  background: none;
+  border: none;
+  text-align: left;
+}
+.efectoboton2{
+  color: #fff!important;
+  font-size: 20px;
+}
+.filaespacio{
+  height: 200px;;
+}
+button:hover{
+  color: #35BAD5;
+}
+.divisorcomunidad{
+  background:#3B8999;
+  color: #FFF;
+  width: 90%;
+  height: 300px;
+  border-radius: 20px;
+}
+.A{
+  width: 100%;
+}
+.imgcomunidad{
+    border-radius: 10px;
+    width: 90%;
+    height: 150px;
+    margin: 0 auto;
+}
+.imgcomunidada{
+    border-radius: 10px;
+    width: 75%;
+    height: 170px;
+    margin: 0 auto;
+}
+.imgcomunidadb{
+    border-radius: 10px;
+    width: 90%;
+    height: 170px;
+    margin: 0 auto;
+}
+.enlace2{
+  width: 100%;
+  background: #107597  ;
+  padding: 10px;
+  font-size: 20px;
+}
+.enlace3{
+  margin-left: -20px;
+  color: #FFF;
+  width: 100%;
+  font-size: 20px;
+}
+.carreracom{
+  font-size: 40px;
+  color: #5D8593  ;
+  text-align:center;
+}
+span{
+  text-align: center !important;
+  color: #000000;
+  font-size: 30px;
+}
+.fondocomunidad{
+  background: #FFF;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.cambio{
+  width: 100%;
+  height: 500px;
+}
+.comunidad{
+  background: #36454B  ;
+  padding: 2%;
+}
+.espacio2{
+  background: #000000;
+  height: 10px;
+}
+.contenedorods{
+  background: #FFF;
+  text-align: justify;
+}
+.imgkatun2{
+  background: url("../img/fon.png");
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.imgkatun{
+  background: url("../img/katunfill.png")no-repeat;
+  background-size: cover;
+  height:400px !important;
+}
+.contenedorkatun{
+  border: 4px solid #FFF;
+  background: url("../img/fon.png");
+  background-size: cover;
+}
+.kat{
+  width: 100%;
+  height: 500px;
+}
+.espaciokatun{
+  color: #FFF;
+  height: auto;
+  padding: 15px;
+  background: url("../img/fon.png");
+  background-size: cover;
+}
+.filakatun{
+  color: #FFF;
+  text-align: justify;
+  color: #000000;
+  background: url("../img/fon.png");
+  background-size: cover;
+}
+.titulokatun{
+  background:#fff;
+  color:#1961B3;
+  font-size: 60px !important;
+}
+.filadecoracion{
+  background: url("../img/fon.png");
+  background-size: cover;
+  height: 50px;
+}
+.collage{
+  background: linear-gradient(45deg, rgba(123,183,239,1) 0%, rgba(123,183,239,1) 35%, rgba(72,148,234,1) 68%, rgba(72,148,234,1) 100%);
+  height: 120px;
+  padding: 5px;
+}
+.c1{
+  background: url("../imagenes/c1.jpg")no-repeat;
+  background-size: cover;
+}
+.c2{
+  background: url("../imagenes/c2.jpg")no-repeat;
+  background-size: cover;
+}
+.c3{
+  background: url("../imagenes/c3.jpg")no-repeat;
+  background-size: cover;
+}
+.c4{
+  background: url("../imagenes/c4.jpg")no-repeat;
+  background-size: cover;
+}
+.c5{
+  background: url("../imagenes/c5.jpg")no-repeat;
+  background-size: cover;
+}
+.c6{
+  background: url("../imagenes/c6.jpg")no-repeat;
+  background-size: cover;
+}
+.c7{
+  background: url("../imagenes/c7.jpg")no-repeat;
+  background-size: cover;
+}
+.c8{
+  background: url("../imagenes/c8.jpg")no-repeat;
+  background-size: cover;
+}
+.c9{
+  background: url("../imagenes/c9.jpg")no-repeat;
+  background-size: cover;
+}
+.c10{
+  background: url("../imagenes/c10.jpg")no-repeat;
+  background-size: cover;
+}
+.c11{
+  background: url("../imagenes/c11.jpg")no-repeat;
+  background-size: cover;
+}
+.c12{
+  background: url("../imagenes/c12.jpg")no-repeat;
+  background-size: cover;
+}
+.cont{
+  overflow: scroll;
+  overflow-x: hidden;
+  visibility: visible;
+  width: 100%;
+  height: 550px;
+  background: #525051;
+  color: #FFF !important;
+}
+.cont2{
+  overflow: scroll;
+  overflow-x: hidden;
+  visibility: visible;
+  width: 100%;
+  height: 550px;
+  background: #525051;
+  color: #000000 !important;
+}
+.colorod{
+  background: #DBF1F5;
+  padding: 0 !important;
+}
+.fondopre{
+  background: #000;
+}
+.presentacion{
+  background: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.presentacionpdf{
+  width: 900px !important;
+  height: 550px;
+}
+.botonesopcion{
+  background: linear-gradient(45deg, rgba(123,183,239,1) 0%, rgba(123,183,239,1) 35%, rgba(72,148,234,1) 68%, rgba(72,148,234,1) 100%)!important;
+  height: 20%;
+  background: #FFF;
+  width: 95%;
+  text-align: center;
+  font-size: 25px;
+}
+.ancho{
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background: url("../img/fon.png")no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 550px;
+}

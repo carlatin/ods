@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html ng-app="app">
+  <head>
+    <link rel="stylesheet" href="../bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Arvo&display=swap" rel="stylesheet">
+    <script src="../libs/jquery.js"></script>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body ng-controller="control">
+    <div class="container-fluid">
+      <div class="row text-center filaestablecimiento">
+        <div class="col-md-12 col-sm-12 cik-xs-12"><br><br>
+          <h1 class="establecimiento">LICEO COMPU-MARKET</h1>
+        </div>
+      </div>
+      <div class="row collage">
+        <div class="col-md-1 col-xs-1 col-sm-1 c1"></div>
+        <div class="col-md-1 col-xs-1 col-sm-1 c2"></div>
+        <div class="col-md-1 col-xs-1 col-sm-1 c3"></div>
+        <div class="col-md-1 col-xs-1 col-sm-1 c4"></div>
+        <div class="col-md-1 col-xs-1 col-sm-1 c5"></div>
+        <div class="col-md-1 col-xs-1 col-sm-1 c6"></div>
+        <div class="col-md-1 col-xs-1 col-sm-1 c7"></div>
+        <div class="col-md-1 col-xs-1 col-sm-1 c8"></div>
+        <div class="col-md-1 col-xs-1 col-sm-1 c9"></div>
+        <div class="col-md-1 col-xs-1 col-sm-1 c10"></div>
+        <div class="col-md-1 col-xs-1 col-sm-1 c11"></div>
+        <div class="col-md-1 col-xs-1 col-sm-1 c12"></div>
+      </div>
+      <div class="row text-center menu">
+        <div class="col-md-4 col-sm-4 text-left semi">
+          <a href="../index.html">Seminario 2019</a>
+        </div>
+        <div class="col-md-2 col-sm-2 men"><a href="comunidades.html">Comunidades</a></div>
+        <div class="col-md-2 col-sm-2 col-xs-2 men"><a href="info.html">Información</a></div>
+        <div class="col-md-2 col-sm-2 col-xs-2 men "><a href="proyectos.html">Proyectos</a></div>
+        <div class="col-md-2 col-sm-2 col-xs-2 men "><a href="carreras.html">Presentación</a></div>
+      </div>
+    </div>
+    <div class="container-fluid" ng-if="portada==true">
+      <div class="row">
+        <div class="col-md-3 col-sm-3 col-xs-3 carrera">
+          <div class="cont2">
+              <div class="row tex-center">
+                <div class="col-md-12 col-sm-12 col-xs-12"><br>
+                  <button ng-click="funcion(1)"><p>5to Bachillerato en Computación con Orientación Cientifica Seccion "A"</p></button>
+                </div>
+              </div>
+              <div class="row tex-center">
+                <div class="col-md-12 col-sm-12 col-xs-12"><br>
+                  <button ng-click="funcion(2)"><p>5to Bachillerato en Computación con Orientación Cientifica Seccion "B"</p></button>
+                </div>
+              </div>
+              <div class="row tex-center">
+                <div class="col-md-12 col-sm-12 col-xs-12"><br>
+                  <button  ng-click="funcion(3)"class="efectoboton"><p>5to Bachillerato en Computación con Orientación Cientifica Seccion "C"</p></button>
+                </div>
+              </div>
+              <div class="row tex-center">
+                <div class="col-md-12 col-sm-12 col-xs-12"><br>
+                  <button  ng-click="funcion(4)"class="efectoboton"><p>6to Perito en Electronica y Dispositivos Digitales</p></button>
+                </div>
+              </div>
+              <div class="row tex-center">
+                <div class="col-md-12 col-sm-12 col-xs-12"><br>
+                  <button  ng-click="funcion(5)"class="efectoboton"><p>6to Secretariado Bilingue</p></button>
+                </div>
+              </div>
+              <div class="row tex-center">
+                <div class="col-md-12 col-sm-12 col-xs-12"><br>
+                  <button  ng-click="funcion(6)"class="efectoboton"><p>6to Perito Contador con Orientación en Computación</p></button>
+                </div>
+              </div>
+          </div>
+          </div>
+          <div class="col-md-9 col-sm-9 col-xs-9 fondocomunidad"><br>
+            <center><img src="../img/cambio.jpg" class="img-fluid cambio" alt="">
+          </div>
+        </div>
+      </div>
+<!--contenedor de comunidades por grado y seccion-->
+<div class="container-fluid">
+  <div class="row espacio2">
+    <div class="col-md-12 col-sm-12 col-xs-12">
+
+    </div>
+  </div>
+</div>
+  <div class="container-fluid comunidad" ng-if="a==true">
+    <div class="row">
+      <div class="col-md-2 col-xs-2 col-sm-2">
+        <button ng-click="funcion(100)" class="enlace3"> ← Regresar </button>
+      </div>
+      <div class="col-md-10 col-xs-10 col-sm-10"></div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 col-xs-12 col-sm-12 text-center">
+        <br>
+        <h1 class="carreracom">5to Bachillerato en Computación Seccion "A"</h1>
+        <br>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 col-sm-12">
+        <div class="row">
+          <div class="col-md-4 col-sm-4 col-xs-4">
+            <!--fila de comunidades-->
+              <div class="A">
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                  <div class="divisorcomunidad"><br>
+                    <center><img src="../img/ba1.jpg" class="img-fluid imgcomunidad" alt=""><br>
+                    <span>Comunidad No.1</span></center>
+                    <div class="enlace2">
+                      <a href="../pdf/ba1.pdf">Ver Proyecto →</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <!--din fila de comunidades-->
+          </div>
+          <div class="col-md-4 col-sm-4 col-xs-4">
+            <!--fila de comunidades-->
+              <div class="A">
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                  <div class="divisorcomunidad"><br>
+                    <center><img src="../img/ba2.jpg" class="img-fluid imgcomunidada" alt=""><br>
+                    <span>Comunidad No.2</span></center>
+                    <div class="enlace2">
+                      <a href="../pdf/ba2.pdf">Ver Proyecto →</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <!--din fila de comunidades-->
+          </div>
+          <div class="col-md-4 col-sm-4 col-xs-4">
+            <!--fila de comunidades-->
+              <div class="A">
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                  <div class="divisorcomunidad"><br>
+                    <center><img src="../img/ba3.jpg" class="img-fluid imgcomunidad" alt=""><br>
+                    <span>Comunidad No.3</span></center>
+                    <div class="enlace2">
+                      <a href="../pdf/ba3.pdf">Ver Proyecto →</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <!--din fila de comunidades-->
+          </div>
+          <div class="col-md-6 col-sm-6 col-xs-6"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!--contenedor de comunidades por grado y seccion-->
+<!--contenedor de comunidades por grado y seccion-->
+  <div class="container-fluid">
+    <div class="row espacio2">
+      <div class="col-md-12 col-sm-12 col-xs-12">
+
+      </div>
+    </div>
+  </div>
+    <div class="container-fluid comunidad" ng-if="b==true">
+      <div class="row">
+        <div class="col-md-2 col-xs-2 col-sm-2">
+          <button ng-click="funcion(100)" class="enlace3"> ← Regresar </button>
+        </div>
+        <div class="col-md-10 col-xs-10 col-sm-10"></div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 col-xs-12 col-sm-12 text-center">
+          <br>
+          <h1 class="carreracom">5to Bachillerato en Computación Seccion "B"</h1>
+          <br>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 col-sm-12">
+          <div class="row">
+            <div class="col-md-4 col-sm-4 col-xs-4">
+              <!--fila de comunidades-->
+                <div class="A">
+                  <div class="col-md-12 col-sm-12 col-xs-12">
+                    <div class="divisorcomunidad"><br>
+                      <center><img src="../img/bb1.jpg" class="img-fluid imgcomunidad" alt=""><br>
+                      <span>Comunidad No.1</span></center>
+                      <div class="enlace2">
+                        <a href="../pdf/bb1.pdf">Ver Proyecto →</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              <!--din fila de comunidades-->
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-4">
+              <!--fila de comunidades-->
+                <div class="A">
+                  <div class="col-md-12 col-sm-12 col-xs-12">
+                    <div class="divisorcomunidad"><br>
+                      <center><img src="../img/bb2.jpg" class="img-fluid imgcomunidad" alt=""><br>
+                      <span>Comunidad No.2</span></center>
+                      <div class="enlace2">
+                        <a href="../pdf/bb2.pdf">Ver Proyecto →</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              <!--din fila de comunidades-->
+            </div>
+            <div class="col-md-4 col-sm-4 col-xs-4">
+              <!--fila de comunidades-->
+                <div class="A">
+                  <div class="col-md-12 col-sm-12 col-xs-12">
+                    <div class="divisorcomunidad"><br>
+                      <center><img src="../img/bb3.jpg" class="img-fluid imgcomunidad" alt=""><br>
+                      <span>Comunidad No.3</span></center>
+                      <div class="enlace2">
+                        <a href="../pdf/bb3.pdf">Ver Proyecto →</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              <!--din fila de comunidades-->
+            </div>
+            <div class="col-md-6 col-sm-6 col-xs-6"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <!--contenedor de comunidades por grado y seccion-->
+  <!--contenedor de comunidades por grado y seccion-->
+      <div class="container-fluid comunidad" ng-if="c==true">
+        <div class="row">
+          <div class="col-md-2 col-xs-2 col-sm-2">
+            <button ng-click="funcion(100)" class="enlace3"> ← Regresar </button>
+          </div>
+          <div class="col-md-10 col-xs-10 col-sm-10"></div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 col-xs-12 col-sm-12 text-center">
+            <br>
+            <h1 class="carreracom">5to Bachillerato en Computación Seccion "C"</h1>
+            <br>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 col-sm-12">
+            <div class="row">
+              <div class="col-md-2 col-xs-2 col-sm-2"></div>
+              <div class="col-md-4 col-sm-4 col-xs-4">
+                <!--fila de comunidades-->
+                  <div class="A">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                      <div class="divisorcomunidad"><br>
+                        <center><img src="../img/bc1.jpg" class="img-fluid imgcomunidad" alt=""><br>
+                        <span>Comunidad No.1</span></center>
+                        <div class="enlace2">
+                          <a href="../pdf/bc1.pdf">Ver Proyecto →</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                <!--din fila de comunidades-->
+              </div>
+              <div class="col-md-4 col-sm-4 col-xs-4">
+                <!--fila de comunidades-->
+                  <div class="A">
+                    <div class="col-md-12 col-sm-12 col-xs-12">
+                      <div class="divisorcomunidad"><br>
+                        <center><img src="../img/bc2.jpg" class="img-fluid imgcomunidad" alt=""><br>
+                        <span>Comunidad No.2</span></center>
+                        <div class="enlace2">
+                          <a href="../pdf/bc2.pdf">Ver Proyecto →</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                <!--din fila de comunidades-->
+              </div>
+                <div class="col-md-2 col-xs-2 col-sm-2"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!--contenedor de comunidades por grado y seccion-->
+    <!--contenedor de comunidades por grado y seccion-->
+        <div class="container-fluid comunidad" ng-if="bipe==true">
+          <div class="row">
+            <div class="col-md-2 col-xs-2 col-sm-2">
+              <button ng-click="funcion(100)" class="enlace3"> ← Regresar </button>
+            </div>
+            <div class="col-md-10 col-xs-10 col-sm-10"></div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 col-xs-12 col-sm-12 text-center">
+              <br>
+              <h1 class="carreracom">6to Perito en Electronica y Dispositivos Digitales</h1>
+              <br>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 col-sm-12">
+              <div class="row">
+                <div class="col-md-4 col-sm-4 col-xs-4">
+                  <!--fila de comunidades-->
+                    <div class="A">
+                      <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="divisorcomunidad"><br>
+                          <center><img src="../img/e1.jpg" class="img-fluid imgcomunidad" alt=""><br>
+                          <span>Comunidad No.1</span></center>
+                          <div class="enlace2">
+                            <a href="../pdf/e1.pdf">Ver Proyecto →</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  <!--din fila de comunidades-->
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-4">
+                  <!--fila de comunidades-->
+                    <div class="A">
+                      <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="divisorcomunidad"><br>
+                          <center><img src="../img/e2.jpg" class="img-fluid imgcomunidad" alt=""><br>
+                          <span>Comunidad No.2</span></center>
+                          <div class="enlace2">
+                            <a href="../pdf/e2.pdf">Ver Proyecto →</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  <!--din fila de comunidades-->
+                </div>
+                <div class="col-md-4 col-sm-4 col-xs-4">
+                  <!--fila de comunidades-->
+                    <div class="A">
+                      <div class="col-md-12 col-sm-12 col-xs-12">
+                        <div class="divisorcomunidad"><br>
+                          <center><img src="../img/e3.jpg" class="img-fluid imgcomunidad" alt=""><br>
+                          <span>Comunidad No.3</span></center>
+                          <div class="enlace2">
+                            <a href="../pdf/e3.pdf">Ver Proyecto →</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  <!--din fila de comunidades-->
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-6"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      <!--contenedor de comunidades por grado y seccion-->
+      <!--contenedor de comunidades por grado y seccion-->
+          <div class="container-fluid comunidad" ng-if="secre==true">
+            <div class="row">
+              <div class="col-md-2 col-xs-2 col-sm-2">
+                <button ng-click="funcion(100)" class="enlace3"> ← Regresar </button>
+              </div>
+              <div class="col-md-10 col-xs-10 col-sm-10"></div>
+            </div>
+            <div class="row">
+              <div class="col-md-12 col-xs-12 col-sm-12 text-center">
+                <br>
+                <h1 class="carreracom">5to Secretariado Bilingue</h1>
+                <br>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12 col-sm-12">
+                <div class="row">
+                  <div class="col-md-2 col-xs-2 col-sm-2"></div>
+                  <div class="col-md-4 col-sm-4 col-xs-4">
+                    <!--fila de comunidades-->
+                      <div class="A">
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                          <div class="divisorcomunidad"><br>
+                            <center><img src="../img/s1.jpg" class="img-fluid imgcomunidadb" alt=""><br>
+                            <span>Comunidad No.1</span></center>
+                            <div class="enlace2">
+                              <a href="../pdf/s1.pdf">Ver Proyecto →</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    <!--din fila de comunidades-->
+                  </div>
+                  <div class="col-md-4 col-sm-4 col-xs-4">
+                    <!--fila de comunidades-->
+                      <div class="A">
+                        <div class="col-md-12 col-sm-12 col-xs-12">
+                          <div class="divisorcomunidad"><br>
+                            <center><img src="../img/s2.jpg" class="img-fluid imgcomunidadb" alt=""><br>
+                            <span>Comunidad No.2</span></center>
+                            <div class="enlace2">
+                              <a href="../pdf/s2.pdf">Ver Proyecto →</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    <!--din fila de comunidades-->
+                  </div>
+                    <div class="col-md-2 col-xs-2 col-sm-2"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        <!--contenedor de comunidades por grado y seccion-->
+        <!--contenedor de comunidades por grado y seccion-->
+            <div class="container-fluid comunidad" ng-if="perito==true">
+              <div class="row">
+                <div class="col-md-2 col-xs-2 col-sm-2">
+                  <button ng-click="funcion(100)" class="enlace3"> ← Regresar </button>
+                </div>
+                <div class="col-md-10 col-xs-10 col-sm-10"></div>
+              </div>
+              <div class="row">
+                <div class="col-md-12 col-xs-12 col-sm-12 text-center">
+                  <br>
+                  <h1 class="carreracom">6to Perito Contador</h1>
+                  <br>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12 col-sm-12">
+                  <div class="row">
+                    <div class="col-md-4 col-sm-4 col-xs-4">
+                      <!--fila de comunidades-->
+                        <div class="A">
+                          <div class="col-md-12 col-sm-12 col-xs-12">
+                            <div class="divisorcomunidad"><br>
+                              <center><img src="../img/p1.jpg" class="img-fluid imgcomunidad" alt=""><br>
+                              <span>Comunidad No.1</span></center>
+                              <div class="enlace2">
+                                <a href="../pdf/p1.pdf">Ver Proyecto →</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      <!--din fila de comunidades-->
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-4">
+                      <!--fila de comunidades-->
+                        <div class="A">
+                          <div class="col-md-12 col-sm-12 col-xs-12">
+                            <div class="divisorcomunidad"><br>
+                              <center><img src="../img/p2.jpg" class="img-fluid imgcomunidad" alt=""><br>
+                              <span>Comunidad No.2</span></center>
+                              <div class="enlace2">
+                                <a href="../pdf/p2.pdf">Ver Proyecto →</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      <!--din fila de comunidades-->
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-4">
+                      <!--fila de comunidades-->
+                        <div class="A">
+                          <div class="col-md-12 col-sm-12 col-xs-12">
+                            <div class="divisorcomunidad"><br>
+                              <center><img src="../img/p3.jpg" class="img-fluid imgcomunidad" alt=""><br>
+                              <span>Comunidad No.3</span></center>
+                              <div class="enlace2">
+                                <a href="../pdf/p3.pdf">Ver Proyecto →</a>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      <!--din fila de comunidades-->
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-6"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--contenedor de comunidades por grado y seccion-->
+    <script src="../bootstrap/dist/js/bootstrap.js"></script>
+    <script src="../libs/angular.js"></script>
+    <script src="../js/script.js"></script>
+  </body>
+</html>
