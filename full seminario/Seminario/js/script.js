@@ -96,8 +96,17 @@ app.controller("control",function($scope){
       $scope.o13=false;
       $scope.o14=false;
       $scope.o15=false;
+      $scope.e=false;
       $scope.o16=false;
       $scope.o17=false;
+      $scope.bl=false;
+      $scope.os=false;
+      $scope.s=false;
+      $scope.ss=false;
+      $scope.ds=false;
+      $scope.bb=false;
+      $scope.bbb=false;
+      $scope.pcjm=false;
     }else if(s==2){
       $("#oo2").addClass("od2");
       $("#oo1").removeClass("od1");
@@ -129,11 +138,20 @@ app.controller("control",function($scope){
       $scope.o10=false;
       $scope.o11=false;
       $scope.o12=false;
+      $scope.e=false;
       $scope.o13=false;
       $scope.o14=false;
       $scope.o15=false;
       $scope.o16=false;
       $scope.o17=false;
+      $scope.bl=false;
+      $scope.os=false;
+      $scope.s=false;
+      $scope.ss=false;
+      $scope.ds=false;
+      $scope.bb=false;
+      $scope.bbb=false;
+      $scope.pcjm=false;
     }else if(s==3){
       $("#oo3").addClass("od3");
       $("#oo1").removeClass("od1");
@@ -162,6 +180,7 @@ app.controller("control",function($scope){
       $scope.o7=false;
       $scope.o8=false;
       $scope.o9=false;
+      $scope.e=false;
       $scope.o10=false;
       $scope.o11=false;
       $scope.o12=false;
@@ -170,6 +189,14 @@ app.controller("control",function($scope){
       $scope.o15=false;
       $scope.o16=false;
       $scope.o17=false;
+      $scope.bl=false;
+      $scope.os=false;
+      $scope.s=false;
+      $scope.ss=false;
+      $scope.ds=false;
+      $scope.bb=false;
+      $scope.bbb=false;
+      $scope.pcjm=false;
     }else if(s==4){
       $("#oo4").addClass("od4");
       $("#oo1").removeClass("od1");
@@ -204,8 +231,17 @@ app.controller("control",function($scope){
       $scope.o13=false;
       $scope.o14=false;
       $scope.o15=false;
+      $scope.e=false;
       $scope.o16=false;
       $scope.o17=false;
+      $scope.bl=false;
+      $scope.os=false;
+      $scope.s=false;
+      $scope.ss=false;
+      $scope.ds=false;
+      $scope.bb=false;
+      $scope.bbb=false;
+      $scope.pcjm=false;
     }else if(s==5){
       $("#oo5").addClass("od5");
       $("#oo1").removeClass("od1");
@@ -241,7 +277,16 @@ app.controller("control",function($scope){
       $scope.o14=false;
       $scope.o15=false;
       $scope.o16=false;
+      $scope.e=false;
       $scope.o17=false;
+      $scope.bl=false;
+      $scope.os=false;
+      $scope.s=false;
+      $scope.ss=false;
+      $scope.ds=false;
+      $scope.bb=false;
+      $scope.bbb=false;
+      $scope.pcjm=false;
     }else if(s==6){
       $("#oo6").addClass("od6");
       $("#oo1").removeClass("od1");
@@ -273,11 +318,20 @@ app.controller("control",function($scope){
       $scope.o10=false;
       $scope.o11=false;
       $scope.o12=false;
+      $scope.e=false;
       $scope.o13=false;
       $scope.o14=false;
       $scope.o15=false;
       $scope.o16=false;
       $scope.o17=false;
+      $scope.bl=false;
+      $scope.os=false;
+      $scope.s=false;
+      $scope.ss=false;
+      $scope.ds=false;
+      $scope.bb=false;
+      $scope.bbb=false;
+      $scope.pcjm=false;
     }else if(s==7){
       $("#oo7").addClass("od7");
       $("#oo1").removeClass("od1");
@@ -312,8 +366,17 @@ app.controller("control",function($scope){
       $scope.o13=false;
       $scope.o14=false;
       $scope.o15=false;
+      $scope.e=false;
       $scope.o16=false;
       $scope.o17=false;
+      $scope.bl=false;
+      $scope.os=false;
+      $scope.s=false;
+      $scope.ss=false;
+      $scope.ds=false;
+      $scope.bb=false;
+      $scope.bbb=false;
+      $scope.pcjm=false;
     }else if(s==8){
       $("#oo8").addClass("od8");
       $("#oo1").removeClass("od1");
@@ -347,9 +410,18 @@ app.controller("control",function($scope){
       $scope.o12=false;
       $scope.o13=false;
       $scope.o14=false;
+      $scope.e=false;
       $scope.o15=false;
       $scope.o16=false;
       $scope.o17=false;
+      $scope.bl=false;
+      $scope.os=false;
+      $scope.s=false;
+      $scope.ss=false;
+      $scope.ds=false;
+      $scope.bb=false;
+      $scope.bbb=false;
+      $scope.pcjm=false;
     }else if(s==9){
       $("#oo9").addClass("od9");
       $("#oo1").removeClass("od1");
@@ -385,7 +457,16 @@ app.controller("control",function($scope){
       $scope.o14=false;
       $scope.o15=false;
       $scope.o16=false;
+      $scope.e=false;
       $scope.o17=false;
+      $scope.bl=false;
+      $scope.os=false;
+      $scope.s=false;
+      $scope.ss=false;
+      $scope.ds=false;
+      $scope.bb=false;
+      $scope.bbb=false;
+      $scope.pcjm=false;
     }else if(s==10){
       $("#oo10").addClass("od10");
       $("#oo1").removeClass("od1");
@@ -420,8 +501,17 @@ app.controller("control",function($scope){
       $scope.o13=false;
       $scope.o14=false;
       $scope.o15=false;
+      $scope.e=false;
       $scope.o16=false;
       $scope.o17=false;
+      $scope.bl=false;
+      $scope.os=false;
+      $scope.s=false;
+      $scope.ss=false;
+      $scope.ds=false;
+      $scope.bb=false;
+      $scope.bbb=false;
+      $scope.pcjm=false;
     }else if(s==11){
       $("#oo11").addClass("od11");
       $("#oo1").removeClass("od1");
@@ -457,7 +547,16 @@ app.controller("control",function($scope){
       $scope.o14=false;
       $scope.o15=false;
       $scope.o16=false;
+      $scope.e=false;
       $scope.o17=false;
+      $scope.bl=false;
+      $scope.os=false;
+      $scope.s=false;
+      $scope.ss=false;
+      $scope.ds=false;
+      $scope.bb=false;
+      $scope.bbb=false;
+      $scope.pcjm=false;
     }else if(s==12){
       $("#oo12").addClass("od12");
       $("#oo1").removeClass("od1");
@@ -494,6 +593,15 @@ app.controller("control",function($scope){
       $scope.o15=false;
       $scope.o16=false;
       $scope.o17=false;
+      $scope.e=false;
+      $scope.bl=false;
+      $scope.os=false;
+      $scope.s=false;
+      $scope.ss=false;
+      $scope.ds=false;
+      $scope.bb=false;
+      $scope.bbb=false;
+      $scope.pcjm=false;
     }else if(s==13){
       $("#oo13").addClass("od13");
       $("#oo1").removeClass("od1");
@@ -530,6 +638,15 @@ app.controller("control",function($scope){
       $scope.o15=false;
       $scope.o16=false;
       $scope.o17=false;
+      $scope.e=false;
+      $scope.bl=false;
+      $scope.os=false;
+      $scope.s=false;
+      $scope.ss=false;
+      $scope.ds=false;
+      $scope.bb=false;
+      $scope.bbb=false;
+      $scope.pcjm=false;
     }else if(s==14){
       $("#oo10").addClass("od10");
       $("#oo1").removeClass("od1");
@@ -565,7 +682,16 @@ app.controller("control",function($scope){
       $scope.o14=true;
       $scope.o15=false;
       $scope.o16=false;
+      $scope.e=false;
       $scope.o17=false;
+      $scope.bl=false;
+      $scope.os=false;
+      $scope.s=false;
+      $scope.ss=false;
+      $scope.ds=false;
+      $scope.bb=false;
+      $scope.bbb=false;
+      $scope.pcjm=false;
     }else if(s==15){
       $("#oo15").addClass("od15");
       $("#oo1").removeClass("od1");
@@ -601,7 +727,16 @@ app.controller("control",function($scope){
       $scope.o14=false;
       $scope.o15=true;
       $scope.o16=false;
+      $scope.e=false;
       $scope.o17=false;
+      $scope.bl=false;
+      $scope.os=false;
+      $scope.s=false;
+      $scope.ss=false;
+      $scope.ds=false;
+      $scope.bb=false;
+      $scope.bbb=false;
+      $scope.pcjm=false;
     }else if(s==16){
       $("#oo16").addClass("od16");
       $("#oo1").removeClass("od1");
@@ -636,8 +771,18 @@ app.controller("control",function($scope){
       $scope.o13=false;
       $scope.o14=false;
       $scope.o15=false;
+      $scope.e=false;
       $scope.o16=true;
       $scope.o17=false;
+      $scope.e=false;
+      $scope.bl=false;
+      $scope.os=false;
+      $scope.s=false;
+      $scope.ss=false;
+      $scope.ds=false;
+      $scope.bb=false;
+      $scope.bbb=false;
+      $scope.pcjm=false;
     }else if(s==17){
       $("#oo17").addClass("od17");
       $("#oo1").removeClass("od1");
@@ -673,7 +818,17 @@ app.controller("control",function($scope){
       $scope.o14=false;
       $scope.o15=false;
       $scope.o16=false;
+      $scope.e=false;
       $scope.o17=true;
+      $scope.e=false;
+      $scope.bl=false;
+      $scope.os=false;
+      $scope.s=false;
+      $scope.ss=false;
+      $scope.ds=false;
+      $scope.bb=false;
+      $scope.bbb=false;
+      $scope.pcjm=false;
     }else if(s==100){
       $("#oo17").removeClass("od17");
       $("#oo1").removeClass("od1");
@@ -710,12 +865,89 @@ app.controller("control",function($scope){
       $scope.o15=false;
       $scope.o16=false;
       $scope.o17=false;
+      $scope.e=false;
+      $scope.e=false;
+      $scope.bl=false;
+      $scope.os=false;
+      $scope.s=false;
+      $scope.ss=false;
+      $scope.ds=false;
+      $scope.bb=false;
+      $scope.bbb=false;
+      $scope.pcjm=false;
     }
   }
   $scope.funcion3=function(x){
     if (x==1) {
-      $scope.e=true;
+      $scope.e=false;
+      $scope.bl=false;
+      $scope.os=false;
+      $scope.s=true;
+      $scope.ss=false;
       $scope.o2=false;
+      $scope.ds=false;
+      $scope.bb=false;
+      $scope.bbb=false;
+      $scope.pcjm=false;
+    }else if(x==2){
+      $scope.e=true;
+      $scope.bl=false;
+      $scope.os=false;
+      $scope.s=false;
+      $scope.ss=false;
+      $scope.o2=false;
+      $scope.ds=false;
+      $scope.bb=false;
+      $scope.bbb=false;
+      $scope.pcjm=false;
+    }else if (x==3){
+      $scope.e=false;
+      $scope.bl=false;
+      $scope.os=false;
+      $scope.s=false;
+      $scope.ss=true;
+      $scope.o2=false;
+      $scope.ds=false;
+      $scope.bb=false;
+      $scope.bbb=false;
+      $scope.pcjm=false;
+    }else if (x==4){
+      $scope.e=false;
+      $scope.bl=true;
+      $scope.os=false;
+      $scope.s=false;
+      $scope.ss=false;
+      $scope.o2=false;
+      $scope.ds=false;
+      $scope.bb=false;
+      scope.bbb=false;
+      $scope.pcjm=false;
+    }
+  }
+  $scope.funcion4=function(y){
+    if (y==2) {
+      $scope.ds=true;
+      $scope.bb=false;
+      $scope.o8=false;
+      $scope.bbb=false;
+      $scope.pcjm=false;
+    } else if(y==1){
+      $scope.ds=false;
+      $scope.bb=true;
+      $scope.o8=false;
+      $scope.bbb=false;
+      $scope.pcjm=false;
+    }
+  }
+  $scope.funcion5=function(m){
+    if (m==1) {
+      $scope.bbb=true;
+      $scope.pcjm=false;
+      $scope.o4=false;
+    }else if (m==2) {
+      $scope.bbb=false;
+      $scope.pcjm=true;
+      $scope.o4=false;
     }
   }
 })
